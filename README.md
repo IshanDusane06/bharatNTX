@@ -59,7 +59,3 @@ Can implement throttling and debouncing as a optimisation
 <img width="150" alt="Screenshot 2025-05-11 at 5 31 51 PM" src="https://github.com/user-attachments/assets/b2b111dd-7f04-4f8c-b8e6-e0c4e19e6164" />
 <img width="150" alt="Screenshot 2025-05-11 at 5 31 14 PM" src="https://github.com/user-attachments/assets/9501fda2-6875-413f-be02-73748b26e89b" />
 <img width="150" alt="Screenshot 2025-05-11 at 5 31 39 PM" src="https://github.com/user-attachments/assets/b48926fe-4208-471e-8d7d-839f2aae4134" />
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
