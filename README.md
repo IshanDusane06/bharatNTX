@@ -9,7 +9,7 @@ A Flutter application that demonstrates clean architecture, state management wit
 - API Integration with Dio
 - Custom Exception Handling
 - Responsive UI
-- Favorites functionality
+- Favorites functionality with persistence storage with Hive
 - Article details view
 
 ## Tech Stack
@@ -22,12 +22,6 @@ A Flutter application that demonstrates clean architecture, state management wit
 - **Go Router**: ^6.0.0 (for navigation)
 
 ## Getting Started
-
-### Prerequisites
-
-- Flutter SDK (latest stable version)
-- Dart SDK (comes with Flutter)
-- Android Studio / VS Code with Flutter extensions
 
 ### Installation
 
@@ -47,27 +41,12 @@ A Flutter application that demonstrates clean architecture, state management wit
    flutter run
    ```
 
-## Project Structure
+## Statemanagment and Data Flow
+Riverpod is a used as stat management in this project because of it is robust state management solution for Flutter that improves upon Provider by offering better compile-time safety, testability, and flexibility. It allows you to manage and share state across your app using Providers that are decoupled from the widget tree. Riverpod supports features like auto-disposal, dependency injection, and asynchronous state with FutureProvider and StreamProvider. Its declarative and modular approach makes it ideal for scalable applications.
 
-```
-lib/
-├── core/
-│   ├── constants/
-│   ├── exceptions/
-│   └── utils/
-├── models/
-├── providers/
-├── repositories/
-├── services/
-└── views/
-    ├── article_detail_screen.dart
-    ├── favorites_screen.dart
-    └── home_screen.dart
-```
+We have followed MVVM architechture where the service handles all the data fetching logic with help of dio package. View Model serves the middleware between UI and Data. Views basically consist of the UI part of the app.
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
+## Screenshots
 
 ## License
 
